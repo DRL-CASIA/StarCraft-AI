@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/9/25 15:05:15。
+     1>项目“D:\StarCraft-AI\Sarsa(lambda)\test-new\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\libraries\BWTAlib_2.2/include /ID:\libraries\BWAPI/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExampleAIClient.cpp
+         ExampleAIClient.cpp
+     1>d:\starcraft-ai\sarsa(lambda)\test-new\test\exampleaiclient.cpp(204): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\starcraft-ai\sarsa(lambda)\test-new\test\exampleaiclient.cpp(241): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\StarCraft-AI\Sarsa(lambda)\test-new\Debug\test.exe" /INCREMENTAL /NOLOGO D:\libraries\BWAPI/lib/BWAPId.lib D:\libraries\BWAPI/lib/BWAPIClientd.lib D:\libraries\BWTAlib_2.2/lib/BWTAd.lib "D:\libraries\BWTAlib_2.2/lib/libboost_system-vc120-mt-gd-1_56.lib" "D:\libraries\BWTAlib_2.2/lib/libboost_thread-vc120-mt-gd-1_56.lib" "D:\libraries\BWTAlib_2.2/lib/libCGAL-vc120-mt-gd-4.4.lib" "D:\libraries\BWTAlib_2.2/lib/libgmp-10.lib" "D:\libraries\BWTAlib_2.2/lib/libmpfr-4.lib" "D:\libraries\BWTAlib_2.2/lib/libboost_filesystem-vc120-mt-gd-1_56.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\StarCraft-AI\Sarsa(lambda)\test-new\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\StarCraft-AI\Sarsa(lambda)\test-new\Debug\test.lib" /MACHINE:X86 Debug\CombatInfoRepre.obj
+         Debug\CombatNN.obj
+         Debug\CombatRL.obj
+         Debug\ExampleAIClient.obj
+         test.vcxproj -> D:\StarCraft-AI\Sarsa(lambda)\test-new\Debug\test.exe
+     1>已完成生成项目“D:\StarCraft-AI\Sarsa(lambda)\test-new\test\test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.41
