@@ -1,5 +1,5 @@
 # StarCraft-AI
-use reinforcement learning and transfer learning to learn policy for starcraft micromanagement
+Use reinforcement learning and transfer learning to learn policy for starcraft micromanagement
 
 # Introduction
 presents a reinforcement learning model and transfer learning method to tackle the multi-agent control of StarCraft micromanagement. 
